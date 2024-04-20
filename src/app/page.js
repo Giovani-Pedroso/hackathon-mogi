@@ -1,5 +1,10 @@
-import Image from "next/image";
+import { Cartao } from "@/components/Cartao";
 
 export default function Home() {
-  return <main>Hello</main>;
+  return <main>
+    
+    
+             <Cartao/>
+    
+    </main>;
 }

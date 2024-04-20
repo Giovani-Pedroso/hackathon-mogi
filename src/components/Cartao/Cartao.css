@@ -1,0 +1,7 @@
+.container-cartao{
+    display: flex;
+    height: 150px;
+    width: 400px;
+  
+    background-color: brown;
+}
