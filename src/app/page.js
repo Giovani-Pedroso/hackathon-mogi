@@ -1,10 +1,9 @@
-import { Cartao } from "@/components/Cartao";
 
+
+
+'use client'
 export default function Home() {
   return <main>
-    
-    
-             <Cartao/>
-    
-    </main>;
+          
+        </main>;
 }

@@ -1,0 +1,42 @@
+.container-Login{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-login{
+    display: flex;
+    flex-direction: column;
+
+}
+.menu-login .form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form #submit{
+    background-color: rgba(2, 117, 216, 1);
+    color: #fff;
+}
+
+
+#capaLogin{
+    height: 100vh;
+}
+
+#logo{
+    height: 250px;
+}
+
+.menu-login{
+    padding: 5px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-login input{
+    padding:  5px 15px;
+    border:0.5px solid;
+    border-radius: 5px;
+}
+
