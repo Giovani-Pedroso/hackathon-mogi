@@ -1,43 +1,44 @@
 .container-Login{
     display: flex;
-    justify-content: space-between;
-}
-.menu-login{
-    display: flex;
-    flex-direction: column;
-
-}
-.menu-login .form{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.form #submit{
-    background-color: rgba(2, 117, 216, 1);
-    color: #fff;
-}
-
-
-#capaLogin{
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
-
-#logo{
-    height: 250px;
-}
-
-.menu-login{
-    padding: 5px;
-    margin-right: 150px;
-
+.container-Login form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 10px ;
 }
 
-.menu-login input{
-    padding:  5px 15px;
-    border:0.5px solid;
+.container-Login #submit {
+    cursor: pointer;
+    background-color: rgba(48, 155, 167, 1) ;
+    color: #fff;
     border-radius: 5px;
+    padding: 5px;
 }
 
+
+#input_cpf {
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+#input_senha {
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+
+
+#nova-conta span{
+    color: blue;
+    cursor: pointer;
+}

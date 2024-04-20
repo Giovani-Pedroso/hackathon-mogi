@@ -1,29 +1,23 @@
 import "./Login.css"
 const Login = () => {
+
+
+    
+
+
     return (
         <div className="container-Login">
+''
 
-
-            <div className="container-capa">
-
-                <img id="capaLogin" src="./capaMedico.png"  alt="capaMenu" />
+            <form className="form" > 
+            <h1>Ato mogi</h1>      
+                <input id="input_cpf" type="text" placeholder="N°CPF" required />
+                <input id="input_senha" type="password" placeholder="Senha" required />
+                <input id="submit" type="submit" value="Entrar" />
+                <p id="nova-conta">Primeira vez aqui? <span>Crie uma conta agora</span></p>
+            </form>
+            <div>
             </div>
-            
-            <div className="menu-login">
-                <div>
-
-            <img id="logo" src="./image 20.png" alt="logo" /> 
-                </div>
-                <form className="form" >
-
-                <label>Login</label>
-                        <input type="text" placeholder="Enter email" required />
-                  <label>Password</label>
-                <input type="password" placeholder="password" required />
-                    <input id="submit" type="submit" value="Entrar"/>
-                </form>
-            </div>
-
 
 
         </div>
