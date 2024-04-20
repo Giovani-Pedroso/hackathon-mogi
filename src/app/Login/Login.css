@@ -29,6 +29,7 @@
 .menu-login{
     padding: 5px;
     margin-right: 150px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;

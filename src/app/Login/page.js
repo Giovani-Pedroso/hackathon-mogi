@@ -17,8 +17,8 @@ const Login = () => {
                 <form className="form" >
 
                 <label>Login</label>
-                <input type="text" placeholder="Enter email" required />
-                <label>Password</label>
+                        <input type="text" placeholder="Enter email" required />
+                  <label>Password</label>
                 <input type="password" placeholder="password" required />
                     <input id="submit" type="submit" value="Entrar"/>
                 </form>
